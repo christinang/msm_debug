@@ -1,3 +1,4 @@
+
 Rails.application.routes.draw do
   # Route for bare domain:
   get('/', { :controller => 'movies', :action => 'index' })

@@ -2,14 +2,14 @@
   <h1>Add Movie</h1>
 </div>
 
-<form class="form-horizontal">
+<form action="/create_movie" class="form-horizontal">
   <!-- Label and input for title -->
   <div class="form-group">
     <label for="title" class="col-sm-2 control-label">
       Title
     </label>
     <div class="col-sm-10">
-      <input type="text" id="title" name="title" placeholder="Title" class="form-control">
+      <input type="text" id="title" name="the_title" placeholder="Title" class="form-control">
     </div>
   </div>
 
@@ -19,7 +19,7 @@
       Year
     </label>
     <div class="col-sm-10">
-      <input type="text" id="year" name="year" placeholder="Year" class="form-control">
+      <input type="text" id="year" name="the_year" placeholder="Year" class="form-control">
     </div>
   </div>
 
@@ -29,7 +29,7 @@
       Duration
     </label>
     <div class="col-sm-10">
-      <input type="text" id="duration" name="duration" placeholder="Duration" class="form-control">
+      <input type="text" id="duration" name="the_duration" placeholder="Duration" class="form-control">
     </div>
   </div>
 
@@ -39,7 +39,7 @@
       Description
     </label>
     <div class="col-sm-10">
-      <textarea id="description" name="description" placeholder="Description" class="form-control" rows="3"></textarea>
+      <textarea id="description" name="the_description" placeholder="Description" class="form-control" rows="3"></textarea>
     </div>
   </div>
 
@@ -49,7 +49,7 @@
       Image url
     </label>
     <div class="col-sm-10">
-      <input type="text" id="image_url" name="image_url" placeholder="Image url" class="form-control">
+      <input type="text" id="image_url" name="the_image_url" placeholder="Image url" class="form-control">
     </div>
   </div>
 
